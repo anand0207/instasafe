@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Poppins;
+  src: url('../public/fonts/Poppins-Regular.ttf');
+}
+
+body {
+  font-family: Poppins;
+  height: 100vh;
+  background: #d8edf8;
+}
+
+.users .form-group {
+  margin: 15px 0px;
+}
+
+.users label {
+  margin-bottom: 10px;
+}
+
+.panel {
+  margin-top: 20px;
+}
+
+.card-body {
+  text-align: center;
+  /* box-shadow: 2px 0px 14px 0px rgb(0 0 0 / 8%); */
+  border-radius: 15px;
+  border: 0px;
+
+}
+
+.card {
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: 2px 0px 14px 0px rgb(0 0 0 / 28%);
+}
+
+.users button.btn.btn-primary {
+  margin-bottom: 20px;
+  background: #9d789b;
+  color: #fff;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  /* box-shadow: -3px 0px 2px #ddd; */
+  -webkit-box-shadow: 2px 0px 14px 0px rgb(0 0 0 / 7%);
+  -moz-box-shadow: 2px 0px 14px 0px rgb(0 0 0 / 7%);
+  box-shadow: 2px 0px 14px 0px rgb(0 0 0 / 7%);
+  border: 0px;
+}
+
+.users h3 {
+  text-align: center;
+  margin-top: 15px;
+  font-family: Poppins;
+}
+
+.users form {
+  background: #edf5f9;
+  padding: 15px 30px;
+  margin-top: 15px;
+  box-shadow: 2px 0px 14px 0px rgb(0 0 0 / 8%);
+  border-radius: 15px;
+  width: 100%;
+}
+
+/* .al_form{
+  display: flex;
+  align-items: center;
+} */
+.details {
+  display: block;
+  text-decoration: none;
+  background: #9d789b;
+  color: #fff !important;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.set_delete {
+  position: absolute;
+  right: 10px;
+  display: none;
+  top: 10px;
+}
+
+.card:hover .set_delete{
+  display: block;
+}
+.user_details {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 350px;
+  background: #edf5f9;
+  padding: 30px;
+  min-height: 700px;
+   
+}
+.user_details .avatar.mx-auto.bg-white{
+  margin: 0px;
+}
+.u_details{
+  margin: 50px 15px;
+  display: flex;
+  justify-content: center;
+
+}
+button.close{
+  background: transparent;
+  border: 0px;
+  font-size: 28px;
+  float: right;
+}
+.error{
+  color: red;
+  margin-top: 5px;
+}
